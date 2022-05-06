@@ -6,21 +6,17 @@ body{
     margin: 0;
     padding: 0;  
 }
-
+/*........................ Navigation CSS ..........................  */
 nav{
     display: flex;
     position: absolute;
-    top: 3rem;
+    top: 4rem;
     right: 5rem;
-    
-
 }
 
 nav > .navMenu > ul{
     display: flex;
-    
-    
-    
+      
 }
 .navMenu > ul > li{
     list-style: none !important;
@@ -28,11 +24,11 @@ nav > .navMenu > ul{
     font-weight: 100;
     color: white;
     margin-right: 1rem;
-    /* padding: 5px; */
+    padding: 5px;
     cursor: pointer;
     
 }
-
+/* ........................... Header Section CSS ........................... */
 #headSection{
     background-image: url("../img/moving\ 1.png");
     height: 100vh;
@@ -60,3 +56,48 @@ nav > .navMenu > ul{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
+/* ...................................... About Section CSS ............................. */
+#aboutSection{
+    margin: 2rem 0;   
+}
+#aboutSection > .aboutContainer{
+    display: flex;
+    height: 50vh;
+}
+#aboutSection > .aboutContainer > .aboutImgContainer{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right:10px ;
+    overflow: hidden;
+}
+#aboutSection > .aboutContainer > .aboutImgContainer > img{
+    max-width:100%;
+    max-height:100%;
+    
+}
+#aboutSection > .aboutContainer > .aboutInfoContainer{
+    flex: 2;
+    box-sizing: border-box; 
+    padding: 70px 0 0 30px;
+}
+#aboutSection > .aboutContainer > .aboutInfoContainer > h2, p{
+    width: 40%;
+}
+#aboutSection > .aboutContainer > .aboutInfoContainer >  h2{
+    font-family: 'Adamina', serif;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+#aboutSection > .aboutContainer > .aboutInfoContainer > p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+}
+#aboutSection > .aboutContainer > .aboutInfoContainer > button{
+    margin-top: 2rem;
+    padding: 10px 20px;
+}
+
+
