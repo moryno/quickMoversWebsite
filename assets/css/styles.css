@@ -62,7 +62,7 @@ nav > .navMenu > ul{
 }
 #aboutSection > .aboutContainer{
     display: flex;
-    height: 50vh;
+    height: 70vh;
 }
 #aboutSection > .aboutContainer > .aboutImgContainer{
     flex: 1;
@@ -78,26 +78,33 @@ nav > .navMenu > ul{
     
 }
 #aboutSection > .aboutContainer > .aboutInfoContainer{
-    flex: 2;
+    flex: 1;
     box-sizing: border-box; 
-    padding: 70px 0 0 30px;
+    padding: 80px 0 0 30px;
 }
 #aboutSection > .aboutContainer > .aboutInfoContainer > h2, p{
-    width: 40%;
+    width: 60%;
 }
 #aboutSection > .aboutContainer > .aboutInfoContainer >  h2{
     font-family: 'Adamina', serif;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 600;
     margin-bottom: 1rem;
 }
 #aboutSection > .aboutContainer > .aboutInfoContainer > p{
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    font-size: 14px;
+    font-size: 1rem;
 }
 #aboutSection > .aboutContainer > .aboutInfoContainer > button{
-    margin-top: 2rem;
+    margin-top: 3.5rem;
     padding: 10px 20px;
+    border: none;
+    border-top-right-radius: 5px;
+    background-color: #000000;
+    color: #E6EB00;
+    font-family: 'Adamina', serif;
+    cursor: pointer;
 }
 
 
