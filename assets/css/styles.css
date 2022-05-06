@@ -107,4 +107,70 @@ nav > .navMenu > ul{
     cursor: pointer;
 }
 
+/* ............................... Top Movers Section CSS ...................................... */
+#topMovers{
+    background-color: #F5F5F7;
+    padding: 5rem;
+}
+#topMovers > h1{
+    font-family: 'Adamina', serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 7rem;
+}
+.moversContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
 
+.moversWrapper{
+    width: 260px;
+    height: 60vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.moversImgContainer > img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.moversInfoContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+}
+.moversInfoContainer > h2{
+    font-family: 'Adamina', serif;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.moversInfoContainer > span{
+    background-color: #E9E9E9;
+}
+.moversIconsContainer{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.moversIcon{
+   width: 100px;
+   height: 50px;
+   background-color: white;
+   border: 1px solid lightgray;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.moversIcon:first-child{
+    border-bottom-left-radius: 20px;
+    border-right: none;
+}
+.moversIcon:last-child{
+    border-bottom-right-radius: 20px;
+    border-left: none;
+}
