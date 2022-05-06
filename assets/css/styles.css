@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;  
+}
+
+nav{
+    display: flex;
+    position: absolute;
+    top: 6rem;
+    right: 10rem;
+    
+
+}
+
+nav > .navMenu > ul{
+    display: flex;
+    
+    
+    
+}
+.navMenu > ul > li{
+    list-style: none !important;
+    font-family: 'Adamina', serif;
+    color: white;
+    margin-right: 3rem;
+    padding: 1rem;
+    cursor: pointer;
+    
+}
+
+#headSection{
+    background-image: url("../img/moving\ 1.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: cover cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
