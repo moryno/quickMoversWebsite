@@ -10,8 +10,8 @@ body{
 nav{
     display: flex;
     position: absolute;
-    top: 6rem;
-    right: 10rem;
+    top: 3rem;
+    right: 5rem;
     
 
 }
@@ -25,9 +25,10 @@ nav > .navMenu > ul{
 .navMenu > ul > li{
     list-style: none !important;
     font-family: 'Adamina', serif;
+    font-weight: 100;
     color: white;
-    margin-right: 3rem;
-    padding: 1rem;
+    margin-right: 1rem;
+    /* padding: 5px; */
     cursor: pointer;
     
 }
@@ -39,5 +40,23 @@ nav > .navMenu > ul{
     background-position: cover cover;
     display: flex;
     align-items: center;
-    justify-content: center;
+    
+}
+#headSection > .headerInfo{
+    color: white;
+    width: 60%;
+    padding: 80px;
+    box-sizing: border-box;
+    
+}
+#headSection > .headerInfo > h1{
+    font-family: 'Adamina', serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #FAFF00;
+    margin-bottom: 2rem;
+}
+#headSection > .headerInfo > h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
