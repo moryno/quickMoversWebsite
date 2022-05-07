@@ -121,10 +121,9 @@ nav > .navMenu > ul{
 .moversContainer{
     display: flex;
     flex-wrap: wrap;
-    padding: 3rem 0;
 }
 
-.moversWrapper{
+.moversCard{
     width: 260px;
     height: 60vh;
     box-sizing: border-box;
@@ -153,9 +152,7 @@ nav > .navMenu > ul{
 }
 .moversIconsContainer{
     display: flex;
-    justify-content: space-around;
-    
-    
+    justify-content: space-around;  
 }
 .moversIcon{
    width: 100px;
@@ -173,4 +170,67 @@ nav > .navMenu > ul{
 .moversIcon:last-child{
     border-bottom-right-radius: 20px;
     border-left: none;
+}
+
+/* ................................... Footer Section CSS ............................................... */
+#footerSection{
+    height: 30vh;
+    padding: 4rem 6rem;
+    background-color: #050505;
+    color: white;
+}
+#footerSection > .footerContainer{
+    display: flex;
+    flex-direction: column;
+}
+#footerSection > .footerContainer >h2{
+    font-family: 'Actor', sans-serif;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+#footerSection > .footerContainer >h2 > span{
+    color: #FFAC12;
+}
+#footerSection > .footerContainer > .linksContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socialContainer{
+    flex:1;
+    display:flex;
+    align-items: center;
+   
+}
+.socialContainer > .fab{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.links{
+    flex:2;
+    box-sizing: border-box;
+}
+table, td, th{
+    padding: 5px;
+    border: none;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+    font-family: 'Actor', sans-serif;
+}
+th{
+    opacity: 0.6;
+    font-size: 12px;
+}
+tr{
+    
+}
+td{
+    opacity: 0.4;
+    font-size: 10px;
 }
