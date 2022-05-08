@@ -177,9 +177,9 @@ nav > .navMenu > .navButton{
     border-top-left-radius: 20px;  
     border-top-right-radius: 20px;  
 }
-.propertyDetail > h4{
+.propertyDetail > h4, .propertyDescription > h4{
     font-family: 'Adamina', serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     padding: 20px;
 }
@@ -206,4 +206,30 @@ nav > .navMenu > .navButton{
 }
 .detailIcons:last-child{
     border-bottom-right-radius: 20px;
+}
+.propertyDescription{
+    margin-top: 2rem;
+    background-color: #FFFFFF;
+    border-top-left-radius: 20px;  
+    border-top-right-radius: 20px; 
+}
+.propertyDescription > .desContainer{
+    background-color: #E9E9E9;
+}
+.propertyDescription > .desContainer > .desWrapper{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    
+}
+.propertyDescription > .desContainer > .desWrapper > p{
+    font-family: 'Actor', sans-serif;
+    opacity: 0.6;
+}
+.propertyDescription > .desContainer > .desWrapper > p:first-child{
+    margin-bottom: 10px;
+}
+.propertyDescription > .desContainer > .desWrapper > p:last-child{
+    margin-top: 10px;
 }
