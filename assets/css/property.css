@@ -5,7 +5,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: rgb(17,12, 3);
+    background: linear-gradient(135deg, #010101 60%,#FFAC12);
 }
 
 /* ..................... NAVIGATION CSS ..................... */
@@ -335,8 +335,7 @@ nav > .navMenu > ul{
 #footerSection{
     height: 30vh;
     padding: 4rem 6rem;
-    border-image: linear-gradient(45deg, #010101,#FFAC12);
-    border-image-slice: 1;
+    background: linear-gradient(145deg, #010101 60%,#FFAC12);
     color: white;
     
 }
