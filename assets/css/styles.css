@@ -177,14 +177,19 @@ nav > .navMenu > ul{
     display: flex;
     justify-content: space-around;  
 }
+
 .moversIcon{
-   width: 100%;
-   height: 50px;
-   background-color: white;
-   border: 1px solid lightgray;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.moversIcon > .fas{
+    margin: 5px;
 }
 .moversIcon:first-child{
     border-bottom-left-radius: 20px;

@@ -71,7 +71,7 @@ To enhance or contribute on the existing project, follow these steps:
 
 ---
 
-\- Click this link to see the live website [Quick Movers](https://moryno.github.io/moringa-landing-page)
+\- Click this link to see the live website [Quick Movers](https://moryno.github.io/quickMoversWebsite/)
 
 ![property page](./assets/img/property%20page%20head.png)
 
