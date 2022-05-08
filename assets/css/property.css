@@ -170,3 +170,40 @@ nav > .navMenu > .navButton{
 .propertyDeco > img{
     width: 13.5%;
 }
+.propertyDetail{
+    margin-top: 2rem;
+    background-color: #FFFFFF;
+    height: 18vh;
+    border-top-left-radius: 20px;  
+    border-top-right-radius: 20px;  
+}
+.propertyDetail > h4{
+    font-family: 'Adamina', serif;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 20px;
+}
+.propertyDetail > .detailIconsContainer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #E9E9E9;
+}
+.propertyDetail > .detailIconsContainer > .detailIcons{
+    width: 105px;
+    height: 58px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(236, 236, 236, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.propertyDetail > .detailIconsContainer > .detailIcons > .fas{
+    margin: 5px;
+}
+.detailIcons:first-child{
+    border-bottom-left-radius: 20px;
+}
+.detailIcons:last-child{
+    border-bottom-right-radius: 20px;
+}
