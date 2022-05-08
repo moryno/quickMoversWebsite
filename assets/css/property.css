@@ -34,8 +34,7 @@ nav > .navMenu > ul{
     padding: 5px;
     cursor: pointer;  
 }
-nav > .navMenu > .navButton{
-    
+.propertyButton{
     padding: 10px 20px;
     border: none;
     border-top-right-radius: 10px;
@@ -44,11 +43,14 @@ nav > .navMenu > .navButton{
     font-family: 'Adamina', serif;
     cursor: pointer;
 }
+.propertyButton > .fas{
+    margin-left: 10px;
+    color:#FFFFFF;
+}
 
 #top{
      margin-top: 4.5rem;
      padding: 1rem 4rem;
-     color:red;
      border-top: 1px solid rgba(236, 236, 236, 0.1) ;
 }
 /* ....................... TOP SECTION CSS ............................. */
@@ -261,7 +263,7 @@ nav > .navMenu > .navButton{
 /* ...................................... SIMILAR LISTINGS SECTION ................................. */
 #similar{
     background-color: #F5F5F7;
-    padding: 5rem;
+    padding: 4rem;
 }
 #similar > h1{
     font-family: 'Actor', serif;
@@ -276,7 +278,6 @@ nav > .navMenu > .navButton{
 
 .listingsCard{
     width: 25%;
-    height: 60vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -323,4 +324,79 @@ nav > .navMenu > .navButton{
 .listingsIcon:last-child{
     border-bottom-right-radius: 20px;
     border-left: none;
+}
+
+
+/* ................................... Footer Section CSS ............................................... */
+#footerSection{
+    height: 30vh;
+    padding: 4rem 6rem;
+    background-color: #050505;
+    color: white;
+    
+}
+#footerSection > .footerContainer{
+    display: flex;
+    flex-direction: column;
+}
+#footerSection > .footerContainer > .footerTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+#footerSection > .footerContainer > .footerTitle >.propertyButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#footerSection > .footerContainer > .footerTitle > h2{
+    font-family: 'Actor', sans-serif;
+    font-weight: 300;
+    margin-bottom: 3rem;
+}
+#footerSection > .footerContainer > .footerTitle > h2 > span{
+    color: #FFAC12;
+}
+#footerSection > .footerContainer > .linksContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socialContainer{
+    flex:1;
+    display:flex;
+    align-items: center;
+   
+}
+.socialContainer > .fab{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.links{
+    flex:2;
+    box-sizing: border-box;
+}
+table, td, th{
+    padding: 5px;
+    border: none;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+    font-family: 'Actor', sans-serif;
+}
+th{
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+td{
+    opacity: 0.4;
+    font-size: 10px;
 }
