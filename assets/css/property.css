@@ -170,14 +170,13 @@ nav > .navMenu > .navButton{
 .propertyDeco > img{
     width: 13.5%;
 }
-.propertyDetail{
+.propertyDetail, .propertyDescription, .propertyFeatures{
     margin-top: 2rem;
     background-color: #FFFFFF;
-    height: 18vh;
     border-top-left-radius: 20px;  
     border-top-right-radius: 20px;  
 }
-.propertyDetail > h4, .propertyDescription > h4{
+.propertyDetail > h4, .propertyDescription > h4, .propertyFeatures > h4{
     font-family: 'Adamina', serif;
     font-size: 1.1rem;
     font-weight: 500;
@@ -207,12 +206,7 @@ nav > .navMenu > .navButton{
 .detailIcons:last-child{
     border-bottom-right-radius: 20px;
 }
-.propertyDescription{
-    margin-top: 2rem;
-    background-color: #FFFFFF;
-    border-top-left-radius: 20px;  
-    border-top-right-radius: 20px; 
-}
+
 .propertyDescription > .desContainer{
     background-color: #E9E9E9;
 }
@@ -232,4 +226,35 @@ nav > .navMenu > .navButton{
 }
 .propertyDescription > .desContainer > .desWrapper > p:last-child{
     margin-top: 10px;
+}
+.propertyFeatures > .featuresContainer{
+    background-color: #E9E9E9;
+}
+.propertyFeatures > .featuresContainer > table{
+    background-color: #FFFFFF;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+}
+.propertyFeatures > .featuresContainer > table, td{
+    padding: 10px 10px 10px 0;;
+    border: none;
+    border-collapse: collapse;
+}
+.propertyFeatures > .featuresContainer > table{
+    width: 100%;
+    font-family: 'Actor', sans-serif;
+}
+.featureIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.featureIcon > .fas{
+    background-color: #FFAC12;
+    border-radius: 50%;
+    color: #FFFFFF;
+    margin-right: 5px;
 }
