@@ -258,3 +258,69 @@ nav > .navMenu > .navButton{
     color: #FFFFFF;
     margin-right: 5px;
 }
+/* ...................................... SIMILAR LISTINGS SECTION ................................. */
+#similar{
+    background-color: #F5F5F7;
+    padding: 5rem;
+}
+#similar > h1{
+    font-family: 'Actor', serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 7rem;
+}
+.similarContainer{
+    display: flex;
+    overflow: hidden;
+}
+
+.listingsCard{
+    width: 25%;
+    height: 60vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.listingsImgContainer > img{
+    max-width: 100%;
+    max-height: 30vh;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.listingsInfoContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+}
+.listingsInfoContainer > h3{
+    font-family: 'Adamina', serif;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.listingsInfoContainer > span{
+    background-color: #E9E9E9;
+}
+.listingsIconsContainer{
+    display: flex;
+    justify-content: space-around;  
+}
+.listingsIcon{
+   width: 100px;
+   height: 50px;
+   background-color: white;
+   border: 1px solid lightgray;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.listingsIcon:first-child{
+    border-bottom-left-radius: 20px;
+    border-right: none;
+}
+.listingsIcon:last-child{
+    border-bottom-right-radius: 20px;
+    border-left: none;
+}
