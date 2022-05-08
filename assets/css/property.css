@@ -108,6 +108,7 @@ nav > .navMenu > .navButton{
     padding: 10px;
     border-radius: 10px;
     width: 250px;
+    height: 55vh;
     font-family: 'Actor', sans-serif;
     margin-left: 1.5rem;
     background-color: #FFFFFF;
@@ -162,4 +163,10 @@ nav > .navMenu > .navButton{
     color: white;
     font-family: 'Adamina', serif;
     cursor: pointer;
+}
+.propertyDeco{
+    margin-top: 1rem;
+}
+.propertyDeco > img{
+    width: 13.5%;
 }
