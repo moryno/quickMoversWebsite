@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(17,12, 3);
+}
+
+/* ..................... NAVIGATION CSS ..................... */
+nav{
+    display: flex;
+    position: absolute;
+    top: 1rem;
+    right: 4.5rem;
+   
+}
+nav > .navMenu{
+    display: flex;
+}
+
+nav > .navMenu > ul{
+    display: flex;
+      
+}
+.navMenu > ul > li{
+    list-style: none !important;
+    font-family: 'Adamina', serif;
+    opacity: 0.8;
+    margin-right: 1rem;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    cursor: pointer;  
+}
+nav > .navMenu > .navButton{
+    
+    padding: 10px 20px;
+    border: none;
+    border-top-right-radius: 10px;
+    color: #000000;
+    background-color: #FFAC12;
+    font-family: 'Adamina', serif;
+    cursor: pointer;
+}
+
+#top{
+     margin-top: 4.5rem;
+     padding: 1rem 4rem;
+     color:red;
+     border-top: 1px solid rgba(236, 236, 236, 0.1) ;
+}
+#top > .topContainer{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#top > .topContainer > .topLeftContainer, .topRightContainer{
+    color: white;
+    font-family: 'Actor', sans-serif;
+   
+}
+#top > .topContainer > .topLeftContainer > h3, .topRightContainer > h3{
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+#top > .topContainer > .topLeftContainer > p, .topRightContainer > p{
+    font-size: 12px;
+    opacity: 0.6;
+}
+#top > .topContainer > .topRightContainer > p{
+    text-align: right;
+}
