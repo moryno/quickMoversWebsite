@@ -34,6 +34,12 @@ nav > .navMenu > ul{
     padding: 5px;
     cursor: pointer;  
 }
+.navMenu > ul > li > a{
+    text-decoration: inherit;
+    color: inherit;
+    
+}
+
 .propertyButton{
     padding: 10px 20px;
     border: none;
@@ -406,5 +412,145 @@ nav > .navMenu > ul{
 
 /* ....................... MEDIA QUERY ....................... */
 @media only screen and (max-width: 480px){
+    nav{
+        width: 100%;
+        top:1rem;
+        bottom: 0;
+        left:5px;
+        right: 5px;
+        margin: auto;
+    }
+    nav > .navMenu{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navMenu > ul > li{
+      font-size: 12px;
+      margin-right: 5px;
+      padding: 5px;
+    }
+     .propertyButton{
+        display: none;
+        
+    }
+    #top{
+        width: 100%;
+        margin-top: 2rem;
+        padding: 10px;
+        border-top: none ;
+   }
+   #top > .topContainer{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} 
+#top > .topContainer > .topLeftContainer > h3, .topRightContainer > h3{
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#top > .topContainer > .topLeftContainer > p, .topRightContainer > p{
+    font-size: 10px;
+    opacity: 0.6;
+}
+#property{
+    background-color: #f5f5f5;
+    width: 100%;
+}
+#property > .propertyContainer{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
     
+}
+#property > .propertyContainer > .propertyLeftContainer{
+    margin-top: 25rem;
+    box-sizing: border-box;
+}
+.propertyDeco > img{
+    padding: 5px;
+}
+.propertyOwnerCard{
+   position: absolute;
+   width: 70%;
+   height: 40vh;
+   top: 1rem;
+   left: 1rem
+   
+}
+#similar{
+    background-color: #F5F5F7;
+    padding: 20px;
+    width: 100%;
+}
+#similar > h1{
+    text-align: center;
+    
+}
+.similarContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.listingsCard{
+    width: 330px;
+    margin: 10px;
+}
+.listingsImgContainer > img{
+    overflow: auto;
+    max-height: 40vh;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+#footerSection{
+    padding: 10px;
+    
+}
+#footerSection > .footerContainer >h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#footerSection > .footerContainer > .linksContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linksContainer{
+    flex:2;
+    display: flex;
+    justify-content: column;
+    box-sizing: border-box;
+    font-family: 'Actor', sans-serif;
+}
+
+.linksContainer > .links{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

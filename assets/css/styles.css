@@ -33,15 +33,28 @@ nav > .navMenu > ul{
     color: inherit;
     
 }
-.yellowBackground{
+.navMenu > ul > li > a > button {
+    padding: 5px;
+    font-family: 'Adamina', serif;
+    font-weight: 700;
+    border: none;
+    
+    
+}
+.navFirstButton {
     background-color: #FAFF00;
     color: black;
-    text-decoration: inherit;
-    color: inherit;
+    /* font-weight: 900; */
+    
 }
-.blackBackground{
-    background-color: #000000;
+.navLastButton {
+    color: #FAFF00;
+    background-color: black;
+
+    
 }
+
+
 
 
 /* ........................... Header Section CSS ........................... */
