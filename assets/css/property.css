@@ -116,7 +116,7 @@ nav > .navMenu > ul{
     padding: 10px;
     border-radius: 10px;
     width: 250px;
-    height: 55vh;
+    height: 60vh;
     font-family: 'Actor', sans-serif;
     margin-left: 1.5rem;
     background-color: #FFFFFF;
@@ -441,7 +441,7 @@ nav > .navMenu > ul{
         
     }
     #top{
-        width: 100%;
+        /* width: 100%; */
         margin-top: 2rem;
         padding: 10px;
         border-top: none ;
@@ -491,8 +491,8 @@ nav > .navMenu > ul{
 }
 #similar{
     background-color: #F5F5F7;
-    padding: 20px;
-    width: 100%;
+    padding:10px;
+    /* width: 100%; */
 }
 #similar > h1{
     text-align: center;
@@ -504,7 +504,7 @@ nav > .navMenu > ul{
     flex-direction: column;
 }
 .listingsCard{
-    width: 330px;
+    width: 250px;
     margin: 10px;
 }
 .listingsImgContainer > img{
@@ -515,6 +515,7 @@ nav > .navMenu > ul{
 }
 #footerSection{
     padding: 10px;
+    /* width: 100%; */
     
 }
 #footerSection > .footerContainer >h2{
