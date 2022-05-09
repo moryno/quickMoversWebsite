@@ -358,7 +358,7 @@ nav > .navMenu > ul{
 }
 .moversCard{
     width: 260px;
-    height: 40vh;
+    height: 50vh;
     overflow:auto;
     box-sizing: border-box;
     display: flex;
