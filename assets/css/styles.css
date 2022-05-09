@@ -285,13 +285,11 @@ nav > .navMenu > ul{
       margin: auto;
   }
   .navMenu > ul > li{
-    font-size: 13px;
+    font-size: 15px;
     margin-right: 5px;
     padding: 0;
   }
-  .yellowBackground, .blackBackground{
-      background-color: inherit;
-  }
+ 
   #headSection{
       width: 100%;
       background-repeat: no-repeat;
@@ -304,7 +302,7 @@ nav > .navMenu > ul{
       padding: 5px;
   }
   #headSection > .headerInfo > h1{
-       margin-top: 2rem;
+       margin-top: 2.7rem;
       font-size: 2rem; 
   }
   #aboutSection{

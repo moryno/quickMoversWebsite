@@ -429,17 +429,18 @@ nav > .navMenu > ul{
     }
     nav > .navMenu{
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap:nowrap;
     }
     .navMenu > ul > li{
       font-size: 12px;
       margin-right: 5px;
-      padding: 5px;
+      padding: 10px 20px;
     }
-     .propertyButton{
+    .propertyButton{
         display: none;
-        
-    }
+         
+     }
+   
     #top{
         /* width: 100%; */
         margin-top: 2rem;
