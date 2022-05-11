@@ -341,6 +341,9 @@ nav > .navMenu > ul{
    align-items: center;
    justify-content: center;
 }
+.listingsIcon > .fas{
+    margin-right: 10px;
+}
 .listingsIcon:first-child{
     border-bottom-left-radius: 20px;
     border-right: none;
