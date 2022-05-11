@@ -153,27 +153,31 @@ nav > .navMenu > ul{
     margin-bottom: 7rem;
 }
 .moversContainer{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .moversCard{
-    width: 260px;
+    width: 30%;
     height: 60vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
     margin-bottom: 10px;
+    position: relative;
 }
 .moversImgContainer > img{
     max-width: 100%;
     object-fit: cover;
 }
 .moversInfoContainer{
+    width: 100%;
     display: flex;
     flex-direction: column;
     background-color: white;
+    
     
 }
 .moversInfoContainer > h3{
