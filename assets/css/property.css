@@ -302,6 +302,8 @@ nav > .navMenu > ul{
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .listingsImgContainer > img{
@@ -311,7 +313,8 @@ nav > .navMenu > ul{
 }
 .listingsImgContainer > img:last-child{
    height: 30vh;
-   
+   border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     
 }
 .listingsInfoContainer{
