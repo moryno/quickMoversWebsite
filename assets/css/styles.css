@@ -55,8 +55,6 @@ nav > .navMenu > ul{
 }
 
 
-
-
 /* ........................... Header Section CSS ........................... */
 #headSection{
     background-image: url("../img/moving\ 1.png");
@@ -178,10 +176,10 @@ nav > .navMenu > ul{
     background-color: white;
     
 }
-.moversInfoContainer > h2{
+.moversInfoContainer > h3{
     font-family: 'Adamina', serif;
-    font-weight: 500;
-    padding: 10px 20px;
+    font-weight: 600;
+    padding: 10px ;
 }
 .moversInfoContainer > span{
     background-color: #E9E9E9;
